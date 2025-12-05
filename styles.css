@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fef6ff;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 350px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+select, button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+    font-size: 16px;
+}
+
+button {
+    background: #8e44ad;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #6d2d8b;
+}
+
+.hidden {
+    display: none;
+}
+
+#food-suggestions li {
+    text-align: left;
+    margin: 5px 0;
+    font-size: 17px;
+}
