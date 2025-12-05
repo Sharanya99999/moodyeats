@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood-Based Food Recommender</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🍽 Mood-Based Food Recommender</h1>
+        <p>Select your mood to get the perfect food vibe!</p>
+
+        <select id="mood">
+            <option value="">-- Select Mood --</option>
+            <option value="happy">Happy 😊</option>
+            <option value="sad">Sad 😔</option>
+            <option value="tired">Tired 😪</option>
+        </select>
+
+        <button onclick="getSuggestion()">Get Suggestion</button>
+
+        <div id="suggestion" class="hidden">
+            <h2 id="vibe"></h2>
+            <ul id="food-suggestions"></ul
